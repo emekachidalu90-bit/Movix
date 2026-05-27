@@ -1,0 +1,40 @@
+{
+  "name": "movix",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "ts-node scripts/seed.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.8",
+    "bcryptjs": "^2.4.3",
+    "framer-motion": "^11.2.10",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.453.0",
+    "next": "14.2.8",
+    "next-pwa": "^5.6.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-player": "^2.16.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.7.4",
+    "@types/react": "^18.3.9",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.8",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
